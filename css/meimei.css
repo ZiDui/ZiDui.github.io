@@ -1,0 +1,25 @@
+.all{
+    height: 2048;
+    width: 1470px;
+}
+.b{
+    height: 360px;
+    width: 1470px;
+    float: left;
+    background: url('../jpg/bg02.png') no-repeat;
+    animation: loop 8s infinite step-end;
+}
+@keyframes loop{
+    25%{background-image: url('../jpg/bg02.png');}
+    50%{background-image: url('../jpg/bg00.jpg');}
+    75%{background-image: url('../jpg/bg01.png');}
+    100%{background-image: url('../jpg/bg00.jpg');}
+}
+.c{
+    height: 240px;
+    width: 1470px;
+    background-color: #FFFFFF;
+    margin-left: 50px;
+    margin-top: 10px;
+    float: left;
+}
